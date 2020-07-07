@@ -40,22 +40,40 @@ var WHAT_WE_ARE_NOT_DOING = [
 ];
 
 var ISSUES = [
+	'a path to citizenship for DREAMers',
 	'the alt-right',
+	'being tolerant',
 	'the climate',
 	'climate change',
 	'health care',
+	'decriminalizing cannabis',
+	'decriminalizing marijuana',
 	'denouncing white supremacists',
 	'election security',
 	'the environment',
 	'gay rights',
+	'getting dark money out of politics',
+	'getting money out of politics',
 	'global warming',
 	'guns',
 	'gun control',
 	'gun violence',
+	'legal protections for disabled people',
+	'legal protections for gay people',
+	'legal protections for queer people',
+	'legal protections for trans people',
+	'legal protections for transgender people',
+	'legalizing cannabis',
+	'legalizing marijuana',
+	'neo-Nazis in the U.S.',
 	'nuclear proliferation',
 	'police brutality',
 	'racism',
+	'raising workers\' wages',
 	'the rise of facism',
+	'police brutality',
+	'police violence',
+	'queer rights',
 	'stopping facism',
 	'stopping family separation',
 	'stopping foreign election interference',
@@ -63,6 +81,10 @@ var ISSUES = [
 	'trans rights',
 	'transgender rights',
 	'Trump\'s obstruction of justice',
+	'universal health care',
+	'voter suppression',
+	'voting by mail',
+	'voting rights',
 	'white supremacy'
 ];
 
@@ -93,13 +115,20 @@ var WHAT_WE_SHOULD_DO_INSTEAD = [
 ];
 
 var NON_ISSUES = [
+	'the American flag',
 	'black-on-black crime',
 	'branding Antifa as terrorists',
+	'buying the police more tanks',
 	'defending the 2<sup>nd</sup> amendment',
+	'defending the American flag',
+	'defending the Confederate flag',
 	'defending Christian values',
 	'defending family values',
+	'defending Southern heritage',
 	'defending your guns',
+	'the flag',
 	'gay people marrying animals',
+	'getting more white immigrants',
 	'God punishing gay people',
 	'God punishing transgender people',
 	'Hillary\'s emails',
@@ -107,6 +136,7 @@ var NON_ISSUES = [
 	'liberals censoring our voices',
 	'the military',
 	'Obama\'s birth certificate',
+	'the plight of poor, innocent, trillion-dollar corporations',
 	'protecting the 2<sup>nd</sup> amendment',
 	'protecting coal miners',
 	'protecting Christian values',
@@ -118,9 +148,12 @@ var NON_ISSUES = [
 	'stopping socialism',
 	'supporting our troops',
 	'reverse-racism',
+	'taking God out of schools',
 	'thoughts and prayers',
+	'thugs in the streets',
 	'video games causing mass shootings',
 	'video games causing violence',
+	'voter fraud conspiracy theories',
 	'why I should be allowed to say the n-word'
 ];
 
@@ -128,8 +161,11 @@ var ANOTHER_THING_PROBABILITY = 0.2;
 
 var ANOTHER_THING_STARTS = [
 	'Also',
+	'And besides',
 	'And besides which',
+	'And don\'t forget',
 	'Besides',
+	'Besides which',
 	'Not to mention',
 	'Plus'
 ];
@@ -138,12 +174,21 @@ var OTHER_THINGS = [
 	'America is the #1 country in the world',
 	'Clinton did it first',
 	'Clinton did it too',
+	'the Democrats were the racist ones before the 20<sup>th</sup> century',
 	'I am the least racist person',
 	'if you hate America so much, you should just leave',
+	'if you hate America so much, why don\'t you just move somewhere else?',
 	'Obama did it first',
 	'Obama did it too',
 	'the stock market is doing great, so stop complaining',
-	'you already got gay marriage; what else do you want?'
+	'this is all China\'s fault',
+	'we can\'t erase history',
+	'we can\'t erase our history',
+	'you already got gay marriage; what else do you want?',
+	'you clearly just hate America',
+	'you clearly just hate the Constitution',
+	'you just hate America',
+	'you just hate the Constitution'
 ];
 
 var responseField;
