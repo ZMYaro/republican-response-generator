@@ -1,7 +1,8 @@
 CACHE MANIFEST
-# 2020-07-06, v1
+# 2021-05-03, v1
 generator.js
 index.html
+material-dark.css
 material-elements.css
 material-touch.js
 
