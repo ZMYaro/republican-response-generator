@@ -196,7 +196,8 @@ var NON_ISSUES = [
 	'voter fraud conspiracy theories',
 	'the war on Christmas',
 	'the war on men',
-	'why I should be allowed to say the n-word'
+	'why I should be allowed to say the n-word',
+	'why it\'s definitely not antisemetic to blame everything on George Soros'
 ];
 
 var ANOTHER_THING_PROBABILITY = 0.2;
@@ -217,6 +218,7 @@ var OTHER_THINGS = [
 	'Clinton did it first',
 	'Clinton did it too',
 	'the Democrats were the racist ones before the 20<sup>th</sup> century',
+	'George Soros',
 	'I am the least racist person',
 	'if you hate America so much, you should just leave',
 	'if you hate America so much, why don\'t you just move somewhere else?',
