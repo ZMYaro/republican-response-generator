@@ -204,9 +204,11 @@ var ANOTHER_THING_PROBABILITY = 0.2;
 
 var ANOTHER_THING_STARTS = [
 	'Also',
+	'And another thing',
 	'And besides',
 	'And besides which',
 	'And don\'t forget',
+	'And really',
 	'Besides',
 	'Besides which',
 	'Not to mention',
@@ -276,7 +278,8 @@ function generateResponse() {
 	
 	if (Math.random() < ANOTHER_THING_PROBABILITY) {
 		// Maybe assemble an “And another thing”.
-		string += '  ' + ANOTHER_THING_STARTS.pickRandom() + ', ';
+		string += '  ' + ANOTHER_THING_STARTS.pickRandom();
+		string += [', ', ': ', '&mdash;'].pickRandom();
 		string += OTHER_THINGS.pickRandom() + '!';
 	}
 	
