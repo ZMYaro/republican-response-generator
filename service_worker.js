@@ -1,6 +1,6 @@
 'use strict';
 
-// 2021-05-03, v1
+// 2022-05-03, v1
 var CACHE_START_TEXT = 'CACHE MANIFEST',
 	CACHE_END_TEXT = 'NETWORK';
 
